@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D51321425872D7A005A14A7 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51321325872D7A005A14A7 /* PokedexViewController.swift */; };
+		7D51321825873028005A14A7 /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51321725873028005A14A7 /* Funciones.swift */; };
 		9162DDDE258284330037187E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162DDDD258284330037187E /* AppDelegate.swift */; };
 		9162DDE0258284330037187E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162DDDF258284330037187E /* SceneDelegate.swift */; };
 		9162DDE2258284330037187E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162DDE1258284330037187E /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D51321325872D7A005A14A7 /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		7D51321725873028005A14A7 /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
 		9162DDDA258284330037187E /* PokemonGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9162DDDD258284330037187E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9162DDDF258284330037187E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,12 +68,14 @@
 			children = (
 				9162DDDD258284330037187E /* AppDelegate.swift */,
 				9162DDDF258284330037187E /* SceneDelegate.swift */,
+				7D51321325872D7A005A14A7 /* PokedexViewController.swift */,
 				9162DDE1258284330037187E /* ViewController.swift */,
 				9162DDE3258284330037187E /* Main.storyboard */,
 				9162DDE9258284380037187E /* Assets.xcassets */,
 				9162DDEB258284380037187E /* LaunchScreen.storyboard */,
 				9162DDEE258284380037187E /* Info.plist */,
 				9162DDE6258284330037187E /* PokemonGO.xcdatamodeld */,
+				7D51321725873028005A14A7 /* Funciones.swift */,
 			);
 			path = PokemonGO;
 			sourceTree = "<group>";
@@ -154,7 +160,9 @@
 			files = (
 				9162DDE2258284330037187E /* ViewController.swift in Sources */,
 				9162DDE8258284330037187E /* PokemonGO.xcdatamodeld in Sources */,
+				7D51321425872D7A005A14A7 /* PokedexViewController.swift in Sources */,
 				9162DDDE258284330037187E /* AppDelegate.swift in Sources */,
+				7D51321825873028005A14A7 /* Funciones.swift in Sources */,
 				9162DDE0258284330037187E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H24B9FWQM;
 				INFOPLIST_FILE = PokemonGO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H24B9FWQM;
 				INFOPLIST_FILE = PokemonGO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
