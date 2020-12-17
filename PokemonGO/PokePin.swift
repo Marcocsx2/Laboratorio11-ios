@@ -1,0 +1,19 @@
+//
+//  PokePin.swift
+//  PokemonGO
+//
+//  Created by mbtec22 on 12/16/20.
+//
+
+import Foundation
+import UIKit
+import MapKit
+
+class PokePin : NSObject, MKAnnotation{
+    var coordinate: CLLocationCoordinate2D
+    var pokemon : Pokemon
+    init(coord: CLLocationCoordinate2D, pokemon: Pokemon) {
+        self.coordinate = coord
+        self.pokemon = pokemon
+    }
+}

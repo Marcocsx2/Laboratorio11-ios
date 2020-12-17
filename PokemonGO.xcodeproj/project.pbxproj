@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D09CA1E258AF38D001D433F /* PokePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09CA1D258AF38D001D433F /* PokePin.swift */; };
 		7D51321425872D7A005A14A7 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51321325872D7A005A14A7 /* PokedexViewController.swift */; };
 		7D51321825873028005A14A7 /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51321725873028005A14A7 /* Funciones.swift */; };
 		9162DDDE258284330037187E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162DDDD258284330037187E /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D09CA1D258AF38D001D433F /* PokePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokePin.swift; sourceTree = "<group>"; };
 		7D51321325872D7A005A14A7 /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 		7D51321725873028005A14A7 /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
 		9162DDDA258284330037187E /* PokemonGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 				9162DDEE258284380037187E /* Info.plist */,
 				9162DDE6258284330037187E /* PokemonGO.xcdatamodeld */,
 				7D51321725873028005A14A7 /* Funciones.swift */,
+				7D09CA1D258AF38D001D433F /* PokePin.swift */,
 			);
 			path = PokemonGO;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9162DDE2258284330037187E /* ViewController.swift in Sources */,
+				7D09CA1E258AF38D001D433F /* PokePin.swift in Sources */,
 				9162DDE8258284330037187E /* PokemonGO.xcdatamodeld in Sources */,
 				7D51321425872D7A005A14A7 /* PokedexViewController.swift in Sources */,
 				9162DDDE258284330037187E /* AppDelegate.swift in Sources */,
